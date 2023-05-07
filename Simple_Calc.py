@@ -4,6 +4,9 @@ import colorama
 from colorama import Fore, Back, Style
 colorama.init()
 # add introduction
+print("")
+print(Fore.LIGHTYELLOW_EX + "WELCOME TO SIMPLE CALCULATOR".center(40," ") )
+print(Fore.LIGHTYELLOW_EX + "By: Mishal Noroña".center(40," ") )
 # Addition Function
 # Subtraction Function
 # Multiplication Function

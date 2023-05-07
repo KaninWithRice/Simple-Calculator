@@ -8,6 +8,8 @@ print("")
 print(Fore.LIGHTYELLOW_EX + "WELCOME TO SIMPLE CALCULATOR".center(40," ") )
 print(Fore.LIGHTYELLOW_EX + "By: Mishal Noroña".center(40," ") )
 # Addition Function
+def addition(x, y):
+    return x + y
 # Subtraction Function
 # Multiplication Function
 # Division Fuction with ZeroDivisionError

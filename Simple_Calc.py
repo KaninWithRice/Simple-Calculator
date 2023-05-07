@@ -10,13 +10,21 @@ print(Fore.LIGHTYELLOW_EX + "By: Mishal Noroña".center(40," ") )
 # Addition Function
 def addition(x, y):
     return x + y
+
 # Subtraction Function
 def subtraction(x, y):
     return x - y
+
 # Multiplication Function
 def multiplication(x, y):
     return x * y
+
 # Division Fuction with ZeroDivisionError
+def division(x, y):
+    try: 
+        return x / y
+    except ZeroDivisionError:
+        print(Fore.RED + "\nDivision by Zero Error")
 # List down Operatios
 # Ask for user's Input
 # Ask for user's Input Numbers

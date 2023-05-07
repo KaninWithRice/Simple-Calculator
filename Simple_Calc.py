@@ -32,7 +32,9 @@ while True:
     print("[s] Subtract")
     print("[m] Multiply")
     print("[d] Divide")
-# Ask for user's Input
+    # Ask for user's Input
+    operation = input(Fore.BLUE + "Enter an Operation [a/s/m/d]: ")
+    if operation in ("a", "s", "m", "d"):
 # Ask for user's Input Numbers
 # Add a ValueError
 # Print the out put

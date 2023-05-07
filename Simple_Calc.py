@@ -25,7 +25,7 @@ def division(x, y):
         return x / y
     except ZeroDivisionError:
         print(Fore.RED + "\nDivision by Zero Error")
-# List down Operations
+# List down Operatios
 while True:
     print(Fore.WHITE + "\nList Of Operation \n")
     print("[a] Add")
@@ -35,7 +35,14 @@ while True:
     # Ask for user's Input
     operation = input(Fore.BLUE + "Enter an Operation [a/s/m/d]: ")
     if operation in ("a", "s", "m", "d"):
-# Ask for user's Input Numbers
-# Add a ValueError
+        # Ask for user's Input Numbers
+        try:
+            num_input1 = float(input(Fore.LIGHTGREEN_EX + "Enter a number: "))
+            num_input2 = float(input("Enter another number: "))
+        # Add a ValueError
+        except ValueError:
+            print(Fore.RED + "Invalid Input")
+            print("Enter a Numerical Value")
+            continue
 # Print the out put
 # Ask if the user's wants to try again

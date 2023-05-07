@@ -1,5 +1,8 @@
 # Mohammad Mishal S. Noroña | BSCPE 1-5 | Simple Calculator
 # Import Color Module
+import colorama
+from colorama import Fore, Back, Style
+colorama.init()
 # add introduction
 # Addition Function
 # Subtraction Function

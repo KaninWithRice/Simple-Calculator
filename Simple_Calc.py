@@ -14,6 +14,8 @@ def addition(x, y):
 def subtraction(x, y):
     return x - y
 # Multiplication Function
+def multiplication(x, y):
+    return x * y
 # Division Fuction with ZeroDivisionError
 # List down Operatios
 # Ask for user's Input

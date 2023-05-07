@@ -44,5 +44,16 @@ while True:
             print(Fore.RED + "Invalid Input")
             print("Enter a Numerical Value")
             continue
-# Print the out put
+        # Print the output
+        if operation == "a":
+            print(num_input1, "+", num_input2, "=", addition(num_input1, num_input2))
+
+        elif operation == "s":
+            print(num_input1, "-", num_input2, "=", subtraction(num_input1, num_input2))
+
+        elif operation == "m":
+            print(num_input1, "*", num_input2, "=", multiplication(num_input1, num_input2))
+
+        elif operation == "d":
+            print(num_input1, "/", num_input2, "=", division(num_input1, num_input2))
 # Ask if the user's wants to try again

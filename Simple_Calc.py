@@ -11,6 +11,8 @@ print(Fore.LIGHTYELLOW_EX + "By: Mishal Noroña".center(40," ") )
 def addition(x, y):
     return x + y
 # Subtraction Function
+def subtraction(x, y):
+    return x - y
 # Multiplication Function
 # Division Fuction with ZeroDivisionError
 # List down Operatios

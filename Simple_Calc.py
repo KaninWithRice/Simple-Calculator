@@ -25,7 +25,7 @@ def division(x, y):
         return x / y
     except ZeroDivisionError:
         print(Fore.RED + "\nDivision by Zero Error")
-# List down Operatios
+# List down Operations
 while True:
     print(Fore.WHITE + "\nList Of Operation \n")
     print("[a] Add")
@@ -56,4 +56,13 @@ while True:
 
         elif operation == "d":
             print(num_input1, "/", num_input2, "=", division(num_input1, num_input2))
-# Ask if the user's wants to try again
+        # Ask if the user's wants to try again
+        more_input = input(Fore.LIGHTCYAN_EX + "Do you want to Enter another? (y/n): ")
+        if more_input == "y":  
+            continue
+        elif more_input == "n":
+            print(Fore.CYAN + "Thank you for using Simple Calculator")
+            break
+        else:
+            print(Fore.RED + "\nInvalid Input")
+            break

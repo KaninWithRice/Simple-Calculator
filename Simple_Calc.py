@@ -25,7 +25,13 @@ def division(x, y):
         return x / y
     except ZeroDivisionError:
         print(Fore.RED + "\nDivision by Zero Error")
-# List down Operatios
+# List down Operations
+while True:
+    print(Fore.WHITE + "\nList Of Operation \n")
+    print("[a] Add")
+    print("[s] Subtract")
+    print("[m] Multiply")
+    print("[d] Divide")
 # Ask for user's Input
 # Ask for user's Input Numbers
 # Add a ValueError

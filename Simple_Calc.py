@@ -8,21 +8,21 @@ print("")
 print(Fore.LIGHTYELLOW_EX + "WELCOME TO SIMPLE CALCULATOR".center(40," ") )
 print(Fore.LIGHTYELLOW_EX + "By: Mishal Noroña".center(40," ") )
 # Addition Function
-def addition(x, y):
-    return x + y
+def addition(num1, num2):
+    return num1 + num2
 
 # Subtraction Function
-def subtraction(x, y):
-    return x - y
+def subtraction(num1, num2):
+    return num1 - num2
 
 # Multiplication Function
-def multiplication(x, y):
-    return x * y
+def multiplication(num1, num2):
+    return num1 * num2
 
 # Division Fuction with ZeroDivisionError
-def division(x, y):
+def division(num1, num2):
     try: 
-        return x / y
+        return num1 / num2
     except ZeroDivisionError:
         print(Fore.RED + "\nDivision by Zero Error")
 # List down Operations
